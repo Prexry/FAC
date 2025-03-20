@@ -13,6 +13,7 @@ mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
+  "SecondaryGoogleAccountSigninAllowed": true,
   "EditBookmarksEnabled": true,
   "ChromeOsMultiProfileUserBehavior": "unrestricted",
   "DeveloperToolsAvailability": 1,
@@ -21,6 +22,8 @@ echo '{
   "AllowDinosaurEasterEgg": true,
   "IncognitoModeAvailability": 0,
   "AllowScreenLock": true,
+  "ExtensionInstallAllowlist": "*",
+  "ExtensionInstallBlocklist": null,
   "ExtensionSettings": null,
   "PasswordManagerEnabled": "true",
   "TaskManagerEndProcessEnabled": "true",
